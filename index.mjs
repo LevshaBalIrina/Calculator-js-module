@@ -21,20 +21,20 @@ class Calculator {
 
   add(a, b) {
     return this.addition.add(a, b);
-}
+  }
+
   sub(a, b) {
     return this.subtraction.sub(a, b)
+  }
+
+  mult(a, b) {
+    return this.multiplication.mult(a,b);
+  }
+
+  div(a, b) {
+    return this.division.div(a,b);
+  }
 }
-
-    mult (a,b) {
-        return this.multiplication.mult(a,b);
-    }
-
-    div (a,b) {
-        return this.division.div(a,b);
-    }
-}
-
 
 const myResult = new Calculator();
 
